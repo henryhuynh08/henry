@@ -204,7 +204,7 @@ class _MainLightState extends State<MainLight> {
   }
   Future<void> yeelightON() async {
     final device = Device(
-        address: InternetAddress('192.168.0.101'),
+        address: InternetAddress('192.168.1.110'),
         port: 55443
     );
 
@@ -220,7 +220,7 @@ class _MainLightState extends State<MainLight> {
 
   Future<void> yeelightOFF() async {
     final device = Device(
-        address: InternetAddress('192.168.0.101'),
+        address: InternetAddress('192.168.1.110'),
         port: 55443
     );
 
@@ -230,7 +230,7 @@ class _MainLightState extends State<MainLight> {
 
   Future<void> yeelightBrightness() async {
     final device = Device(
-        address: InternetAddress('192.168.0.101'),
+        address: InternetAddress('192.168.1.110'),
         port: 55443
     );
 
@@ -240,7 +240,7 @@ class _MainLightState extends State<MainLight> {
 
   Future<void> yeelightColor() async {
     final device = Device(
-        address: InternetAddress('192.168.0.101'),
+        address: InternetAddress('192.168.1.110'),
         port: 55443
     );
 

@@ -14,7 +14,7 @@ class _RoomTemperatureState extends State<RoomTemperature> {
   String fah = '';
   String hum = '';
   String _status = '';
-  String url = 'http://192.168.0.215:80/';
+  String url = 'http://192.168.1.200:80/';
   var response;
   var dataProgress = true;
 

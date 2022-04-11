@@ -203,7 +203,7 @@ class _ReadingLightState extends State<ReadingLight> {
   }
   Future<void> yeelightReadON() async {
     final device = Device(
-        address: InternetAddress('192.168.0.100'),
+        address: InternetAddress('192.168.1.111'),
         port: 55443
     );
 
@@ -219,7 +219,7 @@ class _ReadingLightState extends State<ReadingLight> {
 
   Future<void> yeelightReadOFF() async {
     final device = Device(
-        address: InternetAddress('192.168.0.100'),
+        address: InternetAddress('192.168.1.111'),
         port: 55443
     );
 
@@ -229,7 +229,7 @@ class _ReadingLightState extends State<ReadingLight> {
 
   Future<void> yeelightReadBrightness() async {
     final device = Device(
-        address: InternetAddress('192.168.0.100'),
+        address: InternetAddress('192.168.1.111'),
         port: 55443
     );
 
@@ -239,7 +239,7 @@ class _ReadingLightState extends State<ReadingLight> {
 
   Future<void> yeelightReadColor() async {
     final device = Device(
-        address: InternetAddress('192.168.0.100'),
+        address: InternetAddress('192.168.1.111'),
         port: 55443
     );
 

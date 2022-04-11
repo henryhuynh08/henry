@@ -27,7 +27,7 @@ class _RGBLedState extends State<RGBLed> {
   var ledColor = Colors.white;
 
   String url =
-      'http://192.168.0.215:80/'; //IP Address which is configured in NodeMCU Sketch
+      'http://192.168.1.200:80/'; //IP Address which is configured in NodeMCU Sketch
   var response;
 
   getInitLedState() async {
